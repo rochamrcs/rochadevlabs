@@ -6,15 +6,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Rocha Dev Labs!</title>
 </head>
 <body>
+
+    <!-- Barra de navegação -->
     <header class="header">
         <a href="#" class="logo">Rocha Dev Labs</a>
 
+        <i class='bx bx-menu' id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="#">Inicio</a>
+            <a href="#" class="active">Inicio</a>
             <a href="#">Sobre</a>
             <a href="#">Serviços</a>
             <a href="#">Produtos</a>
@@ -23,6 +28,27 @@
         </nav>
     </header>
 
+    <!-- incio -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Rocha Dev Labs</h3>
+            <h1>Dev by Marcos Rocha</h1>
+            <h3>Soluções em <span>Automação</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Modi, doloremque optio nihil ab pariatur vel asperiores aperiam.
+            </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./assets/img/profile.jpg" alt="">
+        </div>
+
+    </section>
 
     <script src="./assets/js/script.js"></script>
 </body>
