@@ -104,6 +104,10 @@ section {
     font-size: 1.6rem;
 }
 
+.home-content {
+    margin-right: 3rem;
+}
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -129,4 +133,32 @@ section {
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* Estilo da sessão sobre */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 2rem;
 }
