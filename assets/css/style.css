@@ -1,10 +1,76 @@
+/* Css reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
-    ontiline: none;
+    ontline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Css variáveis */
+
+:root {
+    --bg-color: rgb(59, 103, 144);
+    --second-bg-color: rgb(35, 72, 106);
+    --text-color: rgb(255, 255, 255);
+    --main-color: rgb(239, 176, 54);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Estilo da barra de navegação */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar {
+    margin-left: auto; /* Move os links para a direita */
+    display: flex;
+    gap: 2rem; /* Espaço entre os links */
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color)
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none
 }
