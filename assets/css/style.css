@@ -168,7 +168,7 @@ span {
 /* Estilo da sessão sobre */
 
 .about {
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,6 +262,9 @@ span {
 }
 
 /* Estilo da sessão de produtos */
+.product {
+    background: var(--second-bg-color)
+}
 
 .product-container {
     display: block;
@@ -316,4 +319,38 @@ span {
 
 .contact form .btn {
     margin-top: 2rem;
+}
+
+/* Estilo do footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: transparent;
+    border-radius: .8rem;
+    transition: transform 0.7s ease-in-out;
+}
+
+.footer-iconTop a:hover{
+    transform: scale(1.1)
+}
+
+.footer-iconTop a i{
+    font-size: 3.4rem;
+    color: var(--main-color);
 }
