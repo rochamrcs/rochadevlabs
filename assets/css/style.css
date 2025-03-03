@@ -39,6 +39,31 @@ span {
     color: var(--main-color)
 }
 
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 5rem;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 3.5rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn a{
+    text-decoration: none;
+    color: var(--text-color)
+}
+
 /* Estilo da barra de navegação */
 
 .header {
