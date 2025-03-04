@@ -40,3 +40,13 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x')
     navbar.classList.remove('active')
 }
+
+// script para troca de soluções no homepage usano typed
+
+const typed = new Typed('.multiple-text', {
+    strings: ["Desenvolvimento Web", "Automações"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 10,
+    loop: true,
+})
