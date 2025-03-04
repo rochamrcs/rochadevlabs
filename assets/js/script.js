@@ -1,3 +1,13 @@
+// interação com o icone do menu
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x')
+    navbar.classList.toggle('active')
+}
+
+
 // trocar as cores da sessão atual na barra de navegação
 
 let sections = document.querySelectorAll('section');
