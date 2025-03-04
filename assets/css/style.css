@@ -383,7 +383,11 @@ span {
     }
 
     .footer {
-        padding: 2rem 3%;
+        padding: 2rem 5%;
+    }
+
+    .footer-text p {
+        font-size: 1.2rem
     }
 }
 
@@ -434,5 +438,11 @@ span {
 
     .services h2 {
         margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
     }
 }
