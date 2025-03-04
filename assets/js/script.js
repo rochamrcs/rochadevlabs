@@ -1,4 +1,6 @@
 // interação com o icone do menu
+
+// interação com o icone do menu
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -33,4 +35,8 @@ window.onscroll = () => {
     let header = document.querySelector('header')
 
     header.classList.toggle('sticky', window.scrollY > 100);
+
+    // ocultar menu ao clicar em uma pagina
+    menuIcon.classList.remove('bx-x')
+    navbar.classList.remove('active')
 }
