@@ -164,8 +164,10 @@ span {
 }
 
 .home-img img {
-    width: 450px;
-    height: 450px;
+    max-width: 100%; /* Permite que a imagem diminua conforme o container */
+    width: 450px; /* Mantém um tamanho padrão para telas grandes */
+    aspect-ratio: 1 / 1;
+    height: auto; /* Mantém a proporção da imagem */
     border-radius: 50%;
     object-fit: cover;
 }
@@ -359,3 +361,5 @@ span {
     font-size: 3.4rem;
     color: var(--main-color);
 }
+
+/* Responsividade */
